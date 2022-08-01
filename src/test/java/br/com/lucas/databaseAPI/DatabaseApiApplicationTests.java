@@ -8,6 +8,7 @@ class DatabaseApiApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("API Started");
 	}
 
 }
