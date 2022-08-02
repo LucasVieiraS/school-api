@@ -8,7 +8,7 @@ public class DatabaseApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DatabaseApiApplication.class, args);
-		System.out.println("API ran process finished.");
+		System.out.println("API application run request succeeded.");
 	}
 
 }
