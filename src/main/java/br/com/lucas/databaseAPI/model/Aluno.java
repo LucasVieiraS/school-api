@@ -12,7 +12,7 @@ public class Aluno {
     private Long id;
 
     private String nomealuno;
-    
+
     private Long cursoid;
 
     @Override
