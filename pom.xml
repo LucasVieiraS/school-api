@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.lucas</groupId>
-	<artifactId>databaseAPI</artifactId>
+	<artifactId>spring-database-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>databaseAPI</name>
+	<name>spring-database-api</name>
 	<description>connects to the database and handles data transferring as server-client.</description>
 	<properties>
 		<java.version>1.8</java.version>
