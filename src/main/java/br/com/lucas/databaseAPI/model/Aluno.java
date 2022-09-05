@@ -13,7 +13,9 @@ public class Aluno {
 
     private String nomealuno;
 
-    private Long cursoid;
+    @ManyToOne
+    @JoinColumn(name="id")
+    private Curso cursoid;
 
     @Override
     public boolean equals(Object o) {

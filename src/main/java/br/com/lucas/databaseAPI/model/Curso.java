@@ -34,11 +34,11 @@ public class Curso {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Curso curso = (Curso) o;
-        return id.equals(curso.id) && nomecurso.equals(curso.nomecurso);
+        return id.equals(curso.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nomecurso);
+        return Objects.hash(id);
     }
 }
