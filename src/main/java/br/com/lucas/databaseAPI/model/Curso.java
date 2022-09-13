@@ -6,16 +6,16 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity
-@Table(name="curso")
+@Table(name = "curso")
 public class Curso {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
     private String nomecurso;
 
-    @OneToMany(mappedBy="cursoid")
+    @OneToMany(mappedBy = "curso")
     private List<Aluno> alunos = new ArrayList<>();
 
     public Long getId() {
