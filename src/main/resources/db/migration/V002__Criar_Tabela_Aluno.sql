@@ -1,5 +1,5 @@
 CREATE TABLE aluno (
     id BIGINT NOT NULL AUTO_INCREMENT,
-
+    nomealuno VARCHAR(100),
     PRIMARY KEY(id)
 );
