@@ -15,7 +15,7 @@ public class CursoResource {
     private CursoRepository cursoRepository;
 
     public List<Curso> listarTodosCursos() {
-      
+        return null;
     }
 
 }
